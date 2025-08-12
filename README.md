@@ -1,6 +1,6 @@
 # Pokémon Gallery - Frontend Coding Challenge
 
-A modern, responsive web application built with Vue 3 that displays Pokémon data from the PokéAPI. Features beautiful card layouts, search functionality, detailed Pokémon pages, and favorites management.
+A modern, responsive web application built with Vue 3 that displays Pokémon data from the PokéAPI. Features beautiful card layouts, search functionality, and detailed Pokémon pages with edit capability.
 
 ## 🚀 Live Demo
 
@@ -21,8 +21,7 @@ A modern, responsive web application built with Vue 3 that displays Pokémon dat
 4. **Detail Pages** - Comprehensive Pokémon information with routing
 5. **Responsive Design** - Mobile-first, works on all screen sizes
 6. **Loading States** - Skeleton loaders and spinner animations
-7. **State Management** - Pinia store with edit functionality
-8. **Favorites System** - Add/remove Pokémon from favorites with localStorage persistence
+7. **State Management** - Pinia store with edit functionality and localStorage persistence
 
 ### Additional Features 🌟
 - **Type-based Color Coding** - Each Pokémon type has distinct colors
@@ -146,9 +145,8 @@ src/
 
 ### User Experience
 - **Intuitive navigation**: Clear routing and back buttons
-- **Search functionality**: Real-time filtering
-- **Favorites system**: One-click favorite management
-- **Edit mode**: In-place editing with form validation
+- **Search functionality**: Real-time filtering with clear button
+- **Edit mode**: In-place editing with form validation and toast notifications
 
 ## 🌐 Deployment
 
